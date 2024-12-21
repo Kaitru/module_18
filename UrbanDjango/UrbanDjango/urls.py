@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from task3.views import index, shop, cart
+from task4.views import index, shop, cart
 from django.views.generic import TemplateView
 
 urlpatterns = [
